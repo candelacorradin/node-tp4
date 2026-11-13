@@ -1,0 +1,22 @@
+{
+  "name": "node-tp4-backend",
+  "version": "1.0.0",
+  "description": "API REST de tareas con Express y MongoDB, consumida por el frontend del TP4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [],
+  "author": "Candela Corradin",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^9.12.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
